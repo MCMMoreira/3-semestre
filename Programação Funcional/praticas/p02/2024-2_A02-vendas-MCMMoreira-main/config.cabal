@@ -1,0 +1,35 @@
+cabal-version:      3.0
+name:               vendas
+version:            1.0.0
+
+library
+    default-language: Haskell2010
+    hs-source-dirs:   src
+    exposed-modules:  Vendas
+    build-depends:
+                    base >=4.7 && <5,
+                    Cabal-syntax >=3.8.1.0
+
+executable vendas
+    default-language: Haskell2010
+    hs-source-dirs:   src
+    main-is:          Main.hs
+    other-modules:    Vendas
+    build-depends:    base >=4.7 && <5
+                    , vendas
+                    , Cabal-syntax >=3.8.1.0  
+
+test-suite tests
+    default-language: Haskell2010
+    type:             exitcode-stdio-1.0
+    hs-source-dirs:   test
+    main-is:          MainSpec.hs
+    other-modules:    Run
+    build-depends:    base >=4.7 && <5
+                    , hspec
+                    , QuickCheck
+                    , ieee754
+                    , process
+                    , temporary
+                    , vendas
+                    , Cabal-syntax >=3.8.1.0 

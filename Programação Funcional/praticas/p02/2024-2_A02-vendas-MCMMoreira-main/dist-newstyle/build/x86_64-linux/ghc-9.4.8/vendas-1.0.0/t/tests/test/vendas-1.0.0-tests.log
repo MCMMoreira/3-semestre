@@ -1,0 +1,21 @@
+Test suite tests: RUNNING...
+
+Custo das vendas
+  zero [✔]
+  cálculo 1 [✔]
+    +++ OK, passed 100 tests.
+  cálculo 2 [✔]
+    +++ OK, passed 100 tests.
+  cálculo 3 [✔]
+    +++ OK, passed 100 tests.
+  cálculo 4 [✔]
+    +++ OK, passed 100 tests.
+Executando o programa
+  com entradas inválidas 1 [✔]
+  com entradas inválidas 2 [✔]
+  com entradas válidas [✔]
+
+Finished in 0.0124 seconds
+8 examples, 0 failures
+Test suite tests: PASS
+Test suite logged to: /home/clara/programacao-funcional/praticas/p02/2024-2_A02-vendas-MCMMoreira-main/dist-newstyle/build/x86_64-linux/ghc-9.4.8/vendas-1.0.0/t/tests/test/vendas-1.0.0-tests.log
